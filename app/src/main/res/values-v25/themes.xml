@@ -3,7 +3,7 @@
 
     <style name="Theme.EKabuttar.Light" parent="Base.Theme.EKabuttar">
         <!-- Customize specific attributes for the light theme -->
-        <item name="android:colorPrimary">@color/my_light_primary</item>
-        <item name="android:colorSecondary">@color/my_light_secondary</item>
+        <item name="android:colorPrimary">@color/PrimaryColor</item>
+        <item name="android:colorSecondary">@color/Secondary</item>
     </style>
 </resources>
