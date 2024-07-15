@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EKabuttar.Light" parent="Base.Theme.EKabuttar">
+        <!-- Customize specific attributes for the light theme -->
+        <item name="android:colorPrimary">@color/my_light_primary</item>
+        <item name="android:colorSecondary">@color/my_light_secondary</item>
+    </style>
+</resources>

@@ -1,9 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
     <style name="Base.Theme.EKabuttar" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorSecondary">@color/Secondary</item>
     </style>
 
-    <style name="Theme.EKabuttar" parent="Base.Theme.EKabuttar" />
+    <!-- Light theme -->
+    <style name="Theme.EKabuttar.Light" parent="Base.Theme.EKabuttar">
+        <!-- Customize specific attributes for the light theme -->
+        <item name="colorPrimary">@color/LightGrey</item>
+        <item name="colorSecondary">@color/OffWhite</item>
+    </style>
+
+    <style name="Theme.EKabuttar.Dark." parent="Base.Theme.EKabuttar">
+        <!-- Customize specific attributes for the light theme -->
+        <item name="colorPrimary">@color/DarkPrimary</item>
+        <item name="colorSecondary">@color/Secondary</item>
+        <item name="android:windowBackground">@color/OffWhite</item>
+    </style>
+
 </resources>
